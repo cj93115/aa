@@ -17,6 +17,11 @@ public class aa {
 public static void main(String[] args) {
 	HashMap<Integer, User> users = new HashMap<>();
 	users.put(1, new User("张三", 25));
+	users.put(1, new User("张三", 25));
+	users.put(1, new User("张三", 25));
+	users.put(1, new User("张三", 25));
+	users.put(1, new User("张三", 25));
+	users.put(1, new User("张三", 25));
 	 users.put(3, new User("李四", 22));
 	users.put(2, new User("王五", 28));
 	users.put(2, new User("王五", 28));
